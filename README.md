@@ -60,6 +60,7 @@ Usage: jest-coverage-thresholds-bumper <command> [options]
 
 Options:
   --coverage-summary-path  Path to Jest coverage results          [string] [default: "./coverage/coverage-summary.json"]
+  --config-file-path       Path to Jest Config JS or JSON file    [string] [default: undefined]
   --margin                 Minimal threshold increase in percent                                   [number] [default: 0]
   --dry-run                Do analysis, but don't change any thresholds                                        [boolean]
   --silent                 No console output unless something goes wrong                                       [boolean]
